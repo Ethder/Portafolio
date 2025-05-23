@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Portfolio</title>
+</head>
+
+<body class="dark">
+  <header class="header">
+    <div class="switches">
+      <div id="toggle-theme" class="toggle-theme">
+        <img id="toggle-icon" src="assets/icons/moon.svg" alt="Theme icon" class="toggle-theme_icon" />
+        <p id="toggle-text" class="toggle-theme_text">Dark Mode</p>
+      </div>
+    </div>
+
+    <div id="toggle-colors" class="colors">
+      <div data-color="#1242c7" class="colors_item colors_item--blue"></div>
+      <div data-color="#2ec035" class="colors_item colors_item--green"></div>
+      <div data-color="#a313cf" class="colors_item colors_item--purple"></div>
+      <div data-color="#e48417" class="colors_item colors_item--orange"></div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="column column--left">
+      <article class="card card--profile">
+        <div class="card__imagen-container">
+          <img src="assets\images\profile.jpg" alt="" /><!--CAMBIAR FOTO-->
+        </div>
+        <div class="card__header">
+          <h2 class="card__title no-margin">Pablo Araya M.</h2>
+          <p class="card__subtitle">Front-end developer</p>
+        </div>
+        <div class="car__body">
+          <div class="card__link">
+            <i class="fas fa-envelope icon"></i>
+            <a href="mailto:jpabloaraya56@gmail.com">
+              jpabloaraya56@gmail.com
+            </a>
+          </div>
+          <div class="card__link">
+            <i class="fas fa-phone-alt icon"></i>
+            <a href="tel: 88481986">
+              +506-88481986
+            </a>
+          </div>
+          <p class="card__text">Soy estudiante de Ingeniería en Sistemas con conocimientos sólidos en
+            lógica de programación, estructuras de datos y experiencia en varios lenguajes como C, C++, C#, Java,
+            Python, JavaScript y PHP. He desarrollado proyectos web con HTML, CSS, JavaScript, además de trabajar con
+            bases de datos relacionales (MySQL) y NoSQL. Me mantengo en constante
+            aprendizaje, explorando nuevas tecnologías, buenas prácticas y metodologías ágiles como Scrum, con el
+            objetivo de integrarme a equipos de desarrollo y aportar soluciones eficientes y escalables.
+          </p>
+
+        </div>
+      </article>
+      <article class="card card--experience">
+        <h2 class="card__title">Experiencia</h2>
+        <div class="experience">
+          <img src="assets\images\logo.png" alt="logo" class="experience__imagen">
+          <div class="experience__info">
+            <p class="experience__time">
+              Ago 2021 - Actualmente.
+            </p>
+            <h3 class="experience__job">Proyectos Universitarios</h3>
+            <p class="experience__descripcion">
+              Proyectos web y uso de lenguajes: HTML, CSS, JavaScript,C, C++, C#, Java,Python, JavaScript, bases de
+              datos y PHP<br>
+            </p>
+          </div>
+        </div>
+        <div class="experience">
+          <img src="assets\images\logo1.png" alt="logo" class="experience__imagen">
+          <div class="experience__info">
+            <p class="experience__time">
+              Ago 2021 - Actualmente.
+            </p>
+            <h3 class="experience__job">Proyectos Personales</h3>
+            <p class="experience__descripcion">
+              Proyectos personales: videojuego android, aplicaciones para dispositivos, Portafolio etc.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article class="card card--hobbies">
+        <h2 class="card__title">Pasatiempo</h2>
+        <div class="card__imagen-container">
+          <img src="assets\images\hobbies.jpg" alt="Space">
+        </div>
+        <h3 class="hobbies__title">Universo</h3>
+        <p class="card__text">Uno de mis pasatiempos favoritos es leer sobre el universo. Me llama la atencion
+          descubrir cómo funcionan los planetas, las estrellas, las galaxias y los misterios que aún no se han resuelto,
+          como los agujeros negros o la materia oscura. Explorar estos temas no solo me
+          entretienen, sino que también me inspira a reflexionar sobre nuestro lugar en el infinito.</p>
+      </article>
+    </section>
+    <section class="column column--right">
+      <article class="card">
+        <H2 class="card__title">Front End and Back End</H2>
+        <small>Años de experiencia</small>
+        <div class="skills">
+          <div class="skills__header">
+            <span class="skills__start-level">0 años</span>
+            <span class="skills__start-level">3 años</span>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">HTML</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">CSS</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">JavaScript</p>
+              <div class="skills__bar skills__bar--20"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">PHP</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Bases de datos</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">API</p>
+              <div class="skills__bar skills__bar--10"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Java</p>
+              <div class="skills__bar skills__bar--20"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Python</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Kotlyn</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">React</p>
+              <div class="skills__bar skills__bar--10"></div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <H2 class="card__title">Big data and IA</H2>
+        <small>Años de experiencia</small>
+        <div class="skills">
+          <div class="skills__header">
+            <span class="skills__start-level">0 años</span>
+            <span class="skills__start-level">1 año</span>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">R</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Python</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">MongoDB</p>
+              <div class="skills__bar skills__bar--20"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Excel</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Apache</p>
+              <div class="skills__bar skills__bar--10"></div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <H2 class="card__title">Android Games</H2>
+        <small>Años de experiencia</small>
+        <div class="skills">
+          <div class="skills__header">
+            <span class="skills__start-level">0 años</span>
+            <span class="skills__start-level">1 año</span>
+          </div>
+        </div>
+        <div class="skills">
+          <div class="skills__item">
+            <p class="skills__tech">GDScript</p>
+            <div class="skills__bar skills__bar--40"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Godot</p>
+            <div class="skills__bar skills__bar--60"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Unity</p>
+            <div class="skills__bar skills__bar--20"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Kotlyn</p>
+            <div class="skills__bar skills__bar--30"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">LibreSprite</p>
+            <div class="skills__bar skills__bar--80"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Blender</p>
+            <div class="skills__bar skills__bar--10"></div>
+          </div>
+        </div>
+        </div>
+      </article>
+      <article class="card">
+        <H2 class="card__title">Cybersecurity</H2>
+        <small>Cisco (Actualmente)</small>
+        <div class="skills">
+          <div class="skills__header">
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">Introduction to cybersecurity</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Basic networks</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">KaliLinux</p>
+              <div class="skills__bar skills__bar--20"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Nmap</p>
+              <div class="skills__bar skills__bar--20"></div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="card card--project">
+        <div class="card__imagen-container">
+          <img src="assets\images\project.png" alt="Lading page" class="card__image">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#HTML</span>
+            <span class="project__tag">#CSS</span>
+            <span class="project__tag">#MVC</span>
+            <span class="project__tag">#C#</span>
+            <span class="project__tag">#SQL#</span>
+          </div>
+          <h2 class="card__title">Tienda Mars</h2>
+          <p class="card__text">
+            Tienda Mars ha sido desarrollada utilizando un enfoque basado en el patrón de arquitectura MVC
+            (Modelo-Vista-Controlador), lo que permite una separación clara entre la lógica de negocio, la interfaz de
+            usuario y el acceso a los datos. La interfaz fue construida con HTML y estilizada con CSS para ofrecer una
+            experiencia visual atractiva y adaptada a dispositivos móviles. En el lado del servidor, se empleó C# junto
+            con ASP.NET para gestionar la lógica de la aplicación, mientras que los datos de productos, clientes y
+            pedidos se almacenan y administran eficientemente en una base de datos SQL. Gracias a esta combinación de
+            tecnologías, la tienda "Mars" ofrece un rendimiento sólido, escalabilidad y facilidad de mantenimiento.
+          </p>
+          <div class="buttons">
+            <a href="https://github.com/Ethder/Tienda-Mars-MVC-.git" class="button button--ghost">Código</a>
+          </div>
+        </div>
+      </article>
+      <article class="card card--project">
+        <div class="card__imagen-container">
+          <img src="assets\images\project1.png" alt="Lading page" class="card__image">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#HTML</span>
+            <span class="project__tag">#CSS</span>
+            <span class="project__tag">#JAVA</span>
+            <span class="project__tag">#C#</span>
+          </div>
+          <h2 class="card__title">Pastillas</h2>
+          <p class="card__text">
+            Mi primer proyecto en C# fue una aplicación sencilla pero significativa, inspirada en la icónica escena de
+            Matrix, donde el usuario debía elegir entre una pastilla roja o una azul, cada una representando un camino
+            diferente dentro del programa. Este ejercicio me permitió familiarizarme con los conceptos básicos de la
+            lógica condicional y la programación orientada a objetos. Años después, decidí mejorar y modernizar ese
+            proyecto utilizando tecnologías web como HTML, CSS y JavaScript. Rediseñé la interfaz para que fuera
+            visualmente más atractiva y responsiva, incorporando animaciones y efectos visuales que reflejan mejor la
+            atmósfera futurista de la película. Esta evolución no solo mejoró la experiencia del usuario, sino que
+            también marcó un avance importante en mi crecimiento como desarrollador.
+          </p>
+          <div class="buttons">
+            <a href="https://ethder.github.io/Pastillas/" class="button button--primary">Play</a>
+            <a href="https://github.com/Ethder/Pastillas.git" class="button button--ghost">Código</a>
+          </div>
+        </div>
+      </article>
+      <article class="card card--project">
+        <div class="card__imagen-container">
+          <img src="assets\images\project2.png" alt="Lading page" class="card__image">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#Godot</span>
+            <span class="project__tag">#GDScript</span>
+            <span class="project__tag">#LibreSprite</span>
+            <span class="project__tag">#Android</span>
+          </div>
+          <h2 class="card__title">Ethder en navidad</h2>
+          <p class="card__text">
+            Ethder es un pequeño juego navideño para Android que desarrollé como mi primer acercamiento al diseño de
+            videojuegos. La historia sigue a Ethder, un nomo decidido que debe rescatar a una galleta mágica perdida en
+            un mundo invernal lleno de sorpresas. El juego consta de un solo nivel, pero está lleno de acción: el
+            objetivo es recolectar la mayor cantidad posible de melcochas mientras se esquivan obstáculos y se avanza
+            por un paisaje navideño encantador. Con gráficos simples pero coloridos y una banda sonora alegre, Ethder
+            ofrece una experiencia breve pero entretenida, ideal para compartir el espíritu navideño de una forma
+            divertida y original.
+          </p>
+          <div class="buttons">
+            <a href="https://play.google.com/store/apps/details?id=com.ethdergames.ethder"
+              class="button button--primary">Play</a>
+            <a href="assets\images\Ethder en navidad.mp4" class="button button--ghost">Trailer</a>
+          </div>
+        </div>
+      </article>
+      <article class="card card--project">
+        <div class="card__imagen-container">
+          <img src="assets\images\project3.png" alt="Lading page" class="card__image">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#Kotlyn</span>
+            <span class="project__tag">#GDScript</span>
+            <span class="project__tag">#Android Studio</span>
+          </div>
+          <h2 class="card__title">Android aplicaciones</h2>
+          <p class="card__text">
+            He desarrollado una serie de aplicaciones móviles utilizando Android y Kotlin, centradas en la gestión y
+            control de medidas estadísticas y operativas a nivel departamental. Estas aplicaciones permiten el registro,
+            análisis y visualización de datos en tiempo real, facilitando la toma de decisiones estratégicas dentro de
+            las organizaciones. Entre sus objetivos principales se encuentran la optimización de procesos, el
+            seguimiento del cumplimiento de metas y la mejora continua mediante indicadores clave de desempeño (KPIs).
+            Las herramientas incluyen funciones de generación de reportes, alertas automatizadas y paneles
+            personalizados, alineándose con los objetivos de eficiencia, transparencia y control en cada área funcional.
+          </p>
+          <div class="buttons">
+            <a href="https://github.com/Ethder/Toma-de-medidas.git" class="button button--ghost">Imagen</a>
+          </div>
+        </div>
+      </article>
+
+
+    </section>
+  </main>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
