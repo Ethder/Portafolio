@@ -412,3 +412,42 @@ header {
         transform: translateX(var(--skills-bar-length));
     }
 }
+
+.clock {
+    font-size: 1.5rem;
+    font-family: 'Courier New', monospace;
+    color: var(--primary-color);
+    background-color: #111;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 1rem 0;
+}
+
+#ironman {
+    position: fixed;
+    top: 50%;
+    left: -200px;
+    /* Comienza fuera de la pantalla */
+    width: 100px;
+    z-index: 9999;
+    animation: fly-across 8s linear infinite;
+    pointer-events: none;
+    /* para que no interfiera con clics */
+}
+
+@keyframes fly-across {
+    0% {
+        left: -200px;
+        transform: translateY(-50%) rotateY(0deg);
+    }
+
+    50% {
+        transform: translateY(-60%) rotateY(180deg);
+    }
+
+    100% {
+        left: 110%;
+        transform: translateY(-50%) rotateY(360deg);
+    }
+}
