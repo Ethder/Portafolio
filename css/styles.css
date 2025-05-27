@@ -418,22 +418,23 @@ header {
     font-family: 'Courier New', monospace;
     color: var(--primary-color);
     background-color: #111;
-    padding: 10px 20px;
+    padding: 1em 1.5em;
     border-radius: 8px;
     display: inline-block;
-    margin: 1rem 0;
+    margin: 1rem auto;
+    max-width: 90vw;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 #ironman {
     position: fixed;
     top: 50%;
     left: -200px;
-    /* Comienza fuera de la pantalla */
     width: 100px;
     z-index: 9999;
     animation: fly-across 8s linear infinite;
     pointer-events: none;
-    /* para que no interfiera con clics */
 }
 
 @keyframes fly-across {
