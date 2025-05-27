@@ -19,6 +19,36 @@
       </div>
     </div>
 
+    <div class="clock" id="digital-clock"></div>
+    <script>
+      function updateClock() {
+        const now = new Date();
+        let hours = now.getHours().toString().padStart(2, "0");
+        let minutes = now.getMinutes().toString().padStart(2, "0");
+        let seconds = now.getSeconds().toString().padStart(2, "0");
+
+        const timeString = `${hours}:${minutes}:${seconds}`;
+        document.getElementById("digital-clock").textContent = timeString;
+      }
+      setInterval(updateClock, 1000);
+      updateClock();
+    </script>
+
+    <img src="assets\images\logofinalapk.png" alt="Loga" id="ironman">
+    <script>
+      const ironman = document.getElementById('ironman');
+
+      function flyLoga() {
+        ironman.style.animation = 'fly-across 8s linear';
+        setTimeout(() => {
+          ironman.style.animation = 'none';
+        }, 8000);
+      }
+      flyLoga();
+      setInterval(flyLoga, 60000);
+    </script>
+
+
     <div id="toggle-colors" class="colors">
       <div data-color="#1242c7" class="colors_item colors_item--blue"></div>
       <div data-color="#2ec035" class="colors_item colors_item--green"></div>
@@ -78,7 +108,7 @@
           <img src="assets\images\logo1.png" alt="logo" class="experience__imagen">
           <div class="experience__info">
             <p class="experience__time">
-              Ago 2023 - Actualmente.
+              Ago 2021 - Actualmente.
             </p>
             <h3 class="experience__job">Proyectos Personales</h3>
             <p class="experience__descripcion">
